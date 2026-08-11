@@ -14,10 +14,10 @@ export const Route = createFileRoute("/order-confirmation")({
       },
       { property: "og:title", content: "Demo order received | Mahnoor" },
       { property: "og:description", content: "Demonstration confirmation screen." },
-      { property: "og:url", content: "/order-confirmation" },
+      { property: "og:url", content: "https://mahnoor-concept-showcase.lovable.app/order-confirmation" },
       { name: "robots", content: "noindex" },
     ],
-    links: [{ rel: "canonical", href: "/order-confirmation" }],
+    links: [{ rel: "canonical", href: "https://mahnoor-concept-showcase.lovable.app/order-confirmation" }],
   }),
   component: ConfirmationPage,
 });

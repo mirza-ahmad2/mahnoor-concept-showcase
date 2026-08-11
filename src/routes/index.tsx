@@ -25,9 +25,9 @@ export const Route = createFileRoute("/")({
         property: "og:description",
         content: "A modern storefront experience designed around clarity, character and effortless browsing.",
       },
-      { property: "og:url", content: "/" },
+      { property: "og:url", content: "https://mahnoor-concept-showcase.lovable.app/" },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: "https://mahnoor-concept-showcase.lovable.app/" }],
   }),
   component: HomePage,
 });

@@ -15,9 +15,9 @@ export const Route = createFileRoute("/contact")({
       },
       { property: "og:title", content: "Contact | Mahnoor" },
       { property: "og:description", content: "Get in touch with Mahnoor directly." },
-      { property: "og:url", content: "/contact" },
+      { property: "og:url", content: "https://mahnoor-concept-showcase.lovable.app/contact" },
     ],
-    links: [{ rel: "canonical", href: "/contact" }],
+    links: [{ rel: "canonical", href: "https://mahnoor-concept-showcase.lovable.app/contact" }],
   }),
   component: ContactPage,
 });

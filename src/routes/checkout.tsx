@@ -18,10 +18,10 @@ export const Route = createFileRoute("/checkout")({
       },
       { property: "og:title", content: "Demo checkout | Mahnoor" },
       { property: "og:description", content: "Demonstration checkout flow — no payment is taken." },
-      { property: "og:url", content: "/checkout" },
+      { property: "og:url", content: "https://mahnoor-concept-showcase.lovable.app/checkout" },
       { name: "robots", content: "noindex" },
     ],
-    links: [{ rel: "canonical", href: "/checkout" }],
+    links: [{ rel: "canonical", href: "https://mahnoor-concept-showcase.lovable.app/checkout" }],
   }),
   component: CheckoutPage,
 });

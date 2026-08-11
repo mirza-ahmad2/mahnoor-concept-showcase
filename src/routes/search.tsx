@@ -22,9 +22,9 @@ export const Route = createFileRoute("/search")({
       },
       { property: "og:title", content: "Search | Mahnoor" },
       { property: "og:description", content: "Search the sample preview catalog." },
-      { property: "og:url", content: "/search" },
+      { property: "og:url", content: "https://mahnoor-concept-showcase.lovable.app/search" },
     ],
-    links: [{ rel: "canonical", href: "/search" }],
+    links: [{ rel: "canonical", href: "https://mahnoor-concept-showcase.lovable.app/search" }],
   }),
   component: SearchPage,
 });
