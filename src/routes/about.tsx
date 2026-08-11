@@ -19,9 +19,9 @@ export const Route = createFileRoute("/about")({
         property: "og:description",
         content: "About Mahnoor Liaqat, an independent freelancer based in Jaranwala.",
       },
-      { property: "og:url", content: "/about" },
+      { property: "og:url", content: "https://mahnoor-concept-showcase.lovable.app/about" },
     ],
-    links: [{ rel: "canonical", href: "/about" }],
+    links: [{ rel: "canonical", href: "https://mahnoor-concept-showcase.lovable.app/about" }],
   }),
   component: AboutPage,
 });

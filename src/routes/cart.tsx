@@ -14,10 +14,10 @@ export const Route = createFileRoute("/cart")({
       },
       { property: "og:title", content: "Your cart | Mahnoor" },
       { property: "og:description", content: "Review your selected preview items." },
-      { property: "og:url", content: "/cart" },
+      { property: "og:url", content: "https://mahnoor-concept-showcase.lovable.app/cart" },
       { name: "robots", content: "noindex" },
     ],
-    links: [{ rel: "canonical", href: "/cart" }],
+    links: [{ rel: "canonical", href: "https://mahnoor-concept-showcase.lovable.app/cart" }],
   }),
   component: CartPage,
 });

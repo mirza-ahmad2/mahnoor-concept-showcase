@@ -29,9 +29,9 @@ export const Route = createFileRoute("/shop/")({
         property: "og:description",
         content: "A responsive product grid with quick add, search and sorting.",
       },
-      { property: "og:url", content: "/shop" },
+      { property: "og:url", content: "https://mahnoor-concept-showcase.lovable.app/shop" },
     ],
-    links: [{ rel: "canonical", href: "/shop" }],
+    links: [{ rel: "canonical", href: "https://mahnoor-concept-showcase.lovable.app/shop" }],
   }),
   component: ShopPage,
 });

@@ -13,9 +13,9 @@ export const Route = createFileRoute("/terms")({
       },
       { property: "og:title", content: "Terms & Conditions | Mahnoor" },
       { property: "og:description", content: "Terms covering use of this preview website." },
-      { property: "og:url", content: "/terms" },
+      { property: "og:url", content: "https://mahnoor-concept-showcase.lovable.app/terms" },
     ],
-    links: [{ rel: "canonical", href: "/terms" }],
+    links: [{ rel: "canonical", href: "https://mahnoor-concept-showcase.lovable.app/terms" }],
   }),
   component: TermsPage,
 });

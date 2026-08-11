@@ -19,9 +19,9 @@ export const Route = createFileRoute("/collections")({
         property: "og:description",
         content: "Preview collection modules showing how catalog grouping will be presented.",
       },
-      { property: "og:url", content: "/collections" },
+      { property: "og:url", content: "https://mahnoor-concept-showcase.lovable.app/collections" },
     ],
-    links: [{ rel: "canonical", href: "/collections" }],
+    links: [{ rel: "canonical", href: "https://mahnoor-concept-showcase.lovable.app/collections" }],
   }),
   component: CollectionsPage,
 });

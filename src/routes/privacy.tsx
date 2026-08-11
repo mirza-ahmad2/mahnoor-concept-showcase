@@ -13,9 +13,9 @@ export const Route = createFileRoute("/privacy")({
       },
       { property: "og:title", content: "Privacy Policy | Mahnoor" },
       { property: "og:description", content: "How submitted information is handled." },
-      { property: "og:url", content: "/privacy" },
+      { property: "og:url", content: "https://mahnoor-concept-showcase.lovable.app/privacy" },
     ],
-    links: [{ rel: "canonical", href: "/privacy" }],
+    links: [{ rel: "canonical", href: "https://mahnoor-concept-showcase.lovable.app/privacy" }],
   }),
   component: PrivacyPage,
 });

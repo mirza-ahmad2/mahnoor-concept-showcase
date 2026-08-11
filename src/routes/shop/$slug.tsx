@@ -43,9 +43,9 @@ export const Route = createFileRoute("/shop/$slug")({
           content: "A sample preview item demonstrating the product page layout.",
         },
         { property: "og:type", content: "product" },
-        { property: "og:url", content: `/shop/${params.slug}` },
+        { property: "og:url", content: `https://mahnoor-concept-showcase.lovable.app/shop/${params.slug}` },
       ],
-      links: [{ rel: "canonical", href: `/shop/${params.slug}` }],
+      links: [{ rel: "canonical", href: `https://mahnoor-concept-showcase.lovable.app/shop/${params.slug}` }],
     };
   },
   component: ProductDetail,
