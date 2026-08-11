@@ -1,4 +1,4 @@
-import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo } from "react";
 import { Search } from "lucide-react";
 import { z } from "zod";
@@ -44,7 +44,7 @@ const sortOptions = [
 
 function ShopPage() {
   const { q = "", sort = "featured" } = Route.useSearch();
-  const navigate = useNavigate({ from: "/shop" });
+  const navigate = Route.useNavigate();
 
   const results = useMemo(() => {
     const query = q.trim().toLowerCase();
