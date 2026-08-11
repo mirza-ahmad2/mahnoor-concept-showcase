@@ -5,7 +5,7 @@ const BASE = "https://mahnoor-concept-showcase.lovable.app";
 
 const staticPaths = ["/", "/shop", "/collections", "/about", "/contact", "/search", "/privacy", "/terms"];
 
-export const Route = createFileRoute("/sitemap[.]xml")({
+export const Route = createFileRoute("/sitemap.xml")({
   server: {
     handlers: {
       GET: () => {
