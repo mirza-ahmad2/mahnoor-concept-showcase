@@ -1,4 +1,4 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { createFileRoute, notFound } from "@tanstack/react-router";
 import { useState } from "react";
 import { ShoppingBag } from "lucide-react";
 import {
@@ -186,13 +186,3 @@ function ProductDetail() {
   );
 }
 
-export function ProductNotFound() {
-  return (
-    <main id="main" className="shell py-40 text-center">
-      <h1 className="display-lg">Preview item not found</h1>
-      <Link to="/shop" className="link-underline mt-6 inline-block text-aubergine">
-        Back to shop
-      </Link>
-    </main>
-  );
-}
